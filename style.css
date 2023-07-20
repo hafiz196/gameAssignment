@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgba(130, 125, 125, 0.578);
+  }
+  .container {
+    height: 70px;
+    width: 80%;
+    display: flex;
+  }
+  .container .logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .logo p {
+    font-family: Work-Sans;
+  
+    font-size: 2rem;
+    padding-right: 10px;
+  }
+  .container .logo span {
+    color: rgba(108, 95, 95, 0.765);
+  }
+  .container .links {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .container ul li {
+    text-decoration: none;
+    display: inline;
+    padding-right: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .buttonContainer {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .partB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    padding: 5px 20px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+  }
+  .banner {
+    height: 550px;
+    width: 100%;
+    display: flex;
+  }
+  .banner .bannerText .container ul li {
+    display: block;
+  }
+  .banner .bannerText .container ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .banner .bannerText {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/Group\ 14.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .banner .bannerText .container {
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .banner .bannerImage {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .banner .bannerImage img {
+    height: 500px;
+    width: 550px;
+  }
+  .btns button {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #fff;
+    border: none;
+  }
+  
+  .banner2 {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    text-align: right;
+    background-color: rgba(255, 66, 164, 0.087);
+    margin-bottom: 100px;
+  }
+  .banner2 .container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+  }
+  .banner2 .bannerImage {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .banner2 .bannerImage img {
+    height: 500px;
+    width: 550px;
+  }
+  
+  .cardHeader {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .cardSets {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cardSets .container {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cardBody {
+    height: 350px;
+    width: 280px;
+  }
+  .cardBody img {
+    width: 48px;
+    height: 48px;
+  }
+  .cardBody .imgs {
+    height: 280px;
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardBody .urls {
+    background: url(images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
+  }
+  .cardBody .urls2 {
+    background: url(images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+  }
+  .cardBody .urls3 {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+  }
+  .cardBody .urls4 {
+    background: url(images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+  }
+  
+  .banner3 {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    text-align: right;
+    background-color: rgba(255, 66, 164, 0.087);
+    margin-bottom: 100px;
+  }
+  .banner3 .container {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+  }
+  .banner3 .bannerImage {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .banner3 .bannerImage .imageBack {
+    height: 70%;
+    width: 70%;
+    background: url(images/Rectangle\ 55.png), lightgray 50% / cover no-repeat;
+  }
+  .imageBack .smallImage {
+    transform: translate(-350px, 250px);
+  }
+  .imageBack img {
+    height: 300px;
+    width: 250px;
+  }
+  .watchBtn {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .gameIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .gameIcon span {
+    padding-left: 10px;
+  }
+  .gameIcon .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gameIcon ul li {
+    text-decoration: none;
+    display: inline;
+    padding-left: 30px;
+  }
+  .gameIcon .container1 :hover {
+    border: 1px solid rgba(0, 0, 0, 0.936);
+    color: rgba(108, 95, 95, 0.765);
+    border-radius: 30px;
+  }
+  
+  .footer {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b0223;
+    color: #fff;
+  }
+  .footer .container {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container1 .gameContainer {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .container1 .gameContainer :hover{
+    
+  
+      
+  } */
+  
